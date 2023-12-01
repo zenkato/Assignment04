@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/* リセットCSS
+========================================================================== */
+
+html, body, section, article, div,
+/*h1, h2, h3, h4, h5, h6,*/
+p,
+ul, ol, li, dl, dt, dd,
+table, th, td,
+form, fieldset, input, textarea, select, option,
+address, blockquote, del, noscript, img, hr {
+	margin: 0;
+	padding: 0;
+	/*font-size: 100.01%;*/
+	/*font: inherit;*/
+	vertical-align: baseline;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 0;
+}
+
+img {
+	border: 0;
+	line-height: 0;	
+	vertical-align: middle;
+}
+
+address {
+	font-style: normal;
+}
+
+hr {
+	clear: both;
+}
+
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	vertical-align: baseline;
+	position: relative;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
