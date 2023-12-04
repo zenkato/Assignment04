@@ -40,11 +40,15 @@
 	<!----- ヘッダー ----->
 	<header>
 		<div class="container">
-			<div class="head">
-				<h1>
-					<a href="index.html">BasicCorp</a>
-				</h1>
-				<div class="PhoneNumber">TEL : 00-0000-0000</div>
+			<div class="row">
+				<div class="col span4">
+					<div class="head">
+						<h1>
+							<a href="index.html">BasicCorp</a>
+						</h1>
+						<div class="PhoneNumber">TEL : 00-0000-0000</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="menu">
@@ -79,49 +83,58 @@
 
 		<!----- ラッパー ----->
 		<div>
-
+			<img src="images/mainimg.jpeg" alt="メイン画像">
 			<!----- メインコンテンツ ----->
 			<main>
-				<img src="images/mainimg.jpeg" alt="メイン画像">
-				<section>
-					<figure>
-						<img src="images/catch.jpeg" alt="PC画像">
-						<figcaption>ここにタイトル</figcaption>
-					</figure>
-					<figure>
-						<img src="images/catch.jpeg" alt="PC画像">
-						<figcaption>ここにタイトル</figcaption>
-					</figure>
-					<figure>
-						<img src="images/catch.jpeg" alt="PC画像">
-						<figcaption>ここにタイトル</figcaption>
-					</figure>
+				<section class="container">
+					<div class="row">
+						<figure>
+							<img src="images/catch.jpeg" alt="PC画像">
+							<figcaption>ここにタイトル</figcaption>
+						</figure>
+						<figure>
+							<img src="images/catch.jpeg" alt="PC画像">
+							<figcaption>ここにタイトル</figcaption>
+						</figure>
+						<figure>
+							<img src="images/catch.jpeg" alt="PC画像">
+							<figcaption>ここにタイトル</figcaption>
+						</figure>
+					</div>
 				</section>
-				<section>
-					<h2>新着情報</h2>
-					<ul>
-						<li>
-							<a href="">20XX.1.1 ここに新着情報のテキストが入ります</a>
-						</li>
-						<li>
-							<a href="">20XX.1.1 ここに新着情報のテキストが入ります</a>
-						</li>
-						<li>
-							<a href="">20XX.1.1 ここに新着情報のテキストが入ります</a>
-						</li>
-						<li>
-							<a href="">20XX.1.1 ここに新着情報のテキストが入ります</a>
-						</li>
-					</ul>
-					<a href="">
-						<img src="images/banner.png" alt="バナー画像">
-					</a>
-					<a href="">
-						<img src="images/banner.png" alt="バナー画像">
-					</a>
-					<a href="">
-						<img src="images/banner.png" alt="バナー画像">
-					</a>
+				<section class="container">
+					<div class="row">
+						<div class="col span-8">
+							<div class="news">
+								<h2>新着情報</h2>
+								<ul>
+									<li>
+										<a href="">20XX.1.1 ここに新着情報のテキストが入ります</a>
+									</li>
+									<li>
+										<a href="">20XX.1.1 ここに新着情報のテキストが入ります</a>
+									</li>
+									<li>
+										<a href="">20XX.1.1 ここに新着情報のテキストが入ります</a>
+									</li>
+									<li>
+										<a href="">20XX.1.1 ここに新着情報のテキストが入ります</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col span-4">
+							<a href="">
+								<img src="images/banner.png" alt="バナー画像">
+							</a>
+							<a href="">
+								<img src="images/banner.png" alt="バナー画像">
+							</a>
+							<a href="">
+								<img src="images/banner.png" alt="バナー画像">
+							</a>
+						</div>
+					</div>
 				</section>
 			</main>
 			<!----- /メインコンテンツ ----->
@@ -139,22 +152,26 @@
 
 	<!----- フッター ----->
 	<footer>
-		<div>
-			<h5>フッター１</h5>
-			<p>ここにSNSやテキストなどが入ります。SNSやテキストなどが入ります。</p>
-		</div>
-		<div>
-			<h5>フッター2</h5>
-			<p>ここにSNSやテキストなどが入ります。SNSやテキストなどが入ります。</p>
-		</div>
-		<div>
-			<h5>フッター3</h5>
-			<p>ここにSNSやテキストなどが入ります。SNSやテキストなどが入ります。</p>
+		<div class="container">
+			<div class="row">
+				<div class="col span4">
+					<h5>フッター１</h5>
+					<p>ここにSNSやテキストなどが入ります。SNSやテキストなどが入ります。</p>
+				</div>
+				<div class="col span4">
+					<h5>フッター2</h5>
+					<p>ここにSNSやテキストなどが入ります。SNSやテキストなどが入ります。</p>
+				</div>
+				<div class="col span4">
+					<h5>フッター3</h5>
+					<p>ここにSNSやテキストなどが入ります。SNSやテキストなどが入ります。</p>
+				</div>
+			</div>
 		</div>
 	</footer>
 	<!----- /フッター ----->
 
-	<div>
+	<div class="copyright">
 		Copyright ©
 		<a href="https://popo-design.net/" target="_blank">popodesign.</a>
 	</div>
