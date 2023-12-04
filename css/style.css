@@ -81,6 +81,8 @@ main {
     background-color: #013399;
     color: #fff;
     padding: 1rem;
+    font-weight: 300;
+    font-size: 32px;
 }
 
 .news li {
@@ -90,6 +92,10 @@ main {
 
 .news a:hover {
     color: #3366FF;
+}
+
+.first {
+    margin-top: 25px;
 }
 
 /* footer */
