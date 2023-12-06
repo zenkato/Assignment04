@@ -98,6 +98,22 @@ footer h5 {
     display: inline-block;
 }
 
+/* top button */
+#pagetop {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+#pagetop a {
+    background-color: #013399;
+    color: #fff;
+    width: 50px;
+    text-align: center;
+    display: block;
+    padding: 10px 5px;
+}
+
 /* breadcrumb navigation */
 .breadcrumb li a {
     color: #666;
